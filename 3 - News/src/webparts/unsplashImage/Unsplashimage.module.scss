@@ -1,0 +1,77 @@
+.unsplashImage {
+  // Image styles
+  .figure {
+    width: 100%;
+    height: auto;
+
+    padding: 0;
+    margin: 0;
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+  }
+
+  .container {
+    max-width: 700px;
+    margin: 0px auto;
+  }
+
+  // ImageEditor styles
+  .imageContainer {
+    position: relative;
+  }
+
+  // provide fixed height for component, when there is no image
+  .loadingImage {
+    height: 400px;
+  }
+
+  // hide navigation arrows and image, when there is no image
+  .loadingImage {
+    .figure, .arrow {
+      display: none;
+    }
+  }
+
+  .arrow {
+    cursor: pointer;
+    font-size: xx-large;
+    font-weight: bold;
+    color: #888;
+  }
+
+  .leftArrow {
+    position: absolute;
+
+    top: 50%;
+    left: -35px;
+  }
+
+  .rightArrow {
+    position: absolute;
+
+    top: 50%;
+    right: -35px;
+  }
+
+  .leftArrow:hover, .rightArrow:hover {
+    color: #666;
+  }
+
+  .arrowDisabled, .arrowDisabled:hover  {
+    color: #EEE;
+    cursor: initial;
+  }
+
+  .spinnerHidden {
+    display: none;
+  }
+
+  .spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+}

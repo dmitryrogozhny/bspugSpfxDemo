@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "4-news-client-side-solution",
+    "id": "4c8515de-48e5-4a7f-91a8-5e766b35c523",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/4-news.spapp"
+  }
+}

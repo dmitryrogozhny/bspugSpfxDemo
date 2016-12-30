@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "19e91703-7972-4fc5-8847-0e8f9e502d37",
+  "alias": "NewsWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "19e91703-7972-4fc5-8847-0e8f9e502d37",
+    "group": { "default": "Under Development" },
+    "title": { "default": "news" },
+    "description": { "default": "news description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "newsLibraryName": "Site Pages",
+      "selectProperties": "id:Id,title:Title,imageUrl:BannerImageUrl,PromotedState:PromotedState,publishedDate:FirstPublishedDate,pageUrl:FileRef",
+      "contentType": "Site Page",
+      "numberOfArticlesToShow": 3
+    }
+  }]
+}
